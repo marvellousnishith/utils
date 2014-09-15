@@ -27,4 +27,6 @@ public class DateUtil {
         sdf.applyPattern(dateFormat);
         return sdf.format(new Date(millis));
     }
+    
+    public static void testMethod(){}
 }
