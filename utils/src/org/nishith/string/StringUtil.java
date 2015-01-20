@@ -58,16 +58,4 @@ public class StringUtil {
         }
         return result.toString();
     }
-
-    public static void main(String[] args) {
-        TreeSet<String> set = new TreeSet<>();
-        set.add("Nisheeth Shah");
-        set.add("Jagrut Shah");
-        set.add("Bhumik Doshi");
-        set.add("Sonali Doshi");
-        System.out.println(set);
-        String[] array = set.toArray(new String[set.size()]);
-        List<String> list = Arrays.asList(array);
-        System.out.println(list);
-    }
 }
